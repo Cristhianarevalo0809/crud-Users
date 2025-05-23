@@ -1,0 +1,30 @@
+.header {
+	border-radius: 20px;
+	background-color: #1a1a1ad1;
+	max-width: 1024px;
+	margin-inline: auto;
+	display: flex;
+	flex-direction: column; /* <-- cambia esto */
+	align-items: center; /* centra horizontalmente */
+	padding: 25px 20px 50px;
+	margin-bottom: 20px;
+}
+
+.btn-primary {
+	background-color: #fff2f2e0;
+	color: #0b0a0a;
+	box-shadow: none;
+	border: none;
+	padding: 1rem 2.5rem;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 10px; /* espacio con el título */
+}
+
+.title {
+	width: 100%;
+	margin-top: 30px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}

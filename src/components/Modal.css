@@ -1,0 +1,42 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000000c8;
+	z-index: 5;
+
+	display: grid;
+	place-content: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.show-modal {
+	opacity: 1;
+	visibility: visible;
+}
+.modal-content {
+	background-color: #111;
+	padding: 1em;
+	border-radius: 0.75em;
+}
+
+.btn-close {
+	position: absolute;
+	width: 2em;
+	height: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	bottom: 43em;
+	right: 58em;
+	background-color: #fff;
+	border: none;
+	color: #000000;
+	font-size: 1em;
+	cursor: pointer;
+}
