@@ -26,17 +26,25 @@
 
 .btn-close {
 	position: absolute;
+	top: 1em;
+	right: 1em;
+	background-color: #fff;
+	border: none;
+	color: #000000;
+	font-size: 1.5em;
+	cursor: pointer;
+	transition: color 0.3s ease-in-out;
+}
+/* position: absolute;
 	width: 2em;
 	height: 2em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 1em;
-	bottom: 43em;
-	right: 58em;
+
 	background-color: #fff;
 	border: none;
 	color: #000000;
 	font-size: 1em;
-	cursor: pointer;
-}
+	cursor: pointer; */
