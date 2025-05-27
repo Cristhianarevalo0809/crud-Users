@@ -7,10 +7,9 @@
 }
 
 .btn-pag {
+	position: relative;
 	background-color: #f0f8ff;
 	color: #000000;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 0.5em;
+	display: grid;
+	place-content: center;
 }

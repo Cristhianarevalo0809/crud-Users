@@ -17,14 +17,9 @@ function UserContent({ users, onEdit, onDelete }) {
 						onDelete={onDelete}
 					/>
 				))}
-
-				<Pagination
-					page={page}
-					totalPages={totalPages}
-					prev={prev}
-					next={next}
-				/>
 			</div>
+
+			<Pagination page={page} totalPages={totalPages} prev={prev} next={next} />
 
 			{users.length === 0 && <p>No users found</p>}
 		</>
